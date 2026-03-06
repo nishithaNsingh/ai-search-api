@@ -5,7 +5,7 @@ import pandas as pd
 model = SentenceTransformer("sentence-transformers/all-MiniLM-L6-v2")
 
 df = pd.read_csv("data/cleaned_products.csv")
-embeddings = np.load("embeddings/product_embeddings.npy")
+embeddings = np.load("embeddings/product_embeddings_v2.npy")
 
 def search_products(query):
     
