@@ -6,7 +6,7 @@ print("Loading model and data...")
 
 model = SentenceTransformer("all-mpnet-base-v2")
 
-product_embeddings = np.load("embeddings/product_embeddings.npy")
+product_embeddings = np.load("embeddings/product_embeddings_v2.npy")
 
 products_df = pd.read_csv("data/cleaned_products.csv")
 
